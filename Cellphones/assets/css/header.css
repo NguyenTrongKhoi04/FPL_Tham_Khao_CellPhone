@@ -1,0 +1,303 @@
+.Menutop .menu a{
+	text-decoration: none;
+	color: black;
+}
+.Menutop{
+	height: 50px;
+	background: #eeeeee;
+	display: flex;
+	position: relative;
+}
+.search .background{
+	background: #e11b1e;
+	position: absolute;
+	right: 0;
+	height: 100%;
+}
+.smart-search{
+	border: 1px solid #ced4da;
+    background: white;
+    width: 7%;
+    color: black;
+    right: 8px;
+    border-left-width: 0;
+    height: 66%;
+    position: absolute;
+    top: 9px;
+    border-radius: 0 4px 4px 0;
+}
+#khuvuc{
+	background: #cccccc;
+	border: 1px solid #afa5a5;
+	color: black;height: 33px;
+	width: 100%;padding:0;
+	border-right: 0px;border-radius: 4px 0 0 4px;
+	margin-top: 9px;
+	font-size: 13px;
+	border: none;
+	outline: none;
+}
+.inputserach{
+	padding-left:12px;
+	width: 96%;;margin-top: 9px;
+	height: 33px;border-radius: 0;
+	border-left: 0px;
+	border: 1px solid #ced4da;
+	border-right: 0px;
+	outline: none;
+}
+.divsearch p{
+	padding-left: 12px;
+}
+.divsearch li{
+	padding: 12px;
+}
+.divsearch li:hover{
+	background:#e11b1e;
+}
+.divsearch a{color: black}
+.divsearch a:hover{
+	text-decoration: none;
+	color: black;
+}
+.divsearch{
+	position: absolute;
+    background: #eae8e8;
+    left: 0;
+    border-radius: 0px 12px 12px;
+    display: none;
+    width: 150%;
+}
+
+.menu li{
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 7px;
+	
+	position: relative;
+}
+.congnghe{
+	width: 8%;
+}
+.doanhnghiep{
+	width: 10%;
+}
+.khuyenmai{
+	width: 9%;
+}
+
+.menu li p{
+	font-weight: bold;
+	padding-top: 2px;
+}
+.menu {margin-left: -15px;}
+.phone .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.dienthoai{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.dienthoai ul{width: 100%;}
+.dienthoai a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.dienthoai li{width: 100%;text-align: left;padding-top: 0}
+.dienthoai a:hover{
+	background: #e11b1e;
+	color: white;
+}
+
+.phukien .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.phukien-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.phukien-plus ul{width: 100%;}
+.phukien-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.phukien-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.phukien-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+
+.dongho .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.dongho-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.dongho-plus ul{width: 100%;}
+.dongho-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.dongho-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.dongho-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+
+.amthanh .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.amthanh-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.amthanh-plus ul{width: 100%;}
+.amthanh-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.amthanh-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.amthanh-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+.laptop .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.laptop-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.laptop-plus ul{width: 100%;}
+.laptop-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.laptop-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.laptop-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+.simthe .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.simthe-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.simthe-plus ul{width: 100%;}
+.simthe-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.simthe-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.simthe-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+.hangcu .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.hangcu-plus{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 30px #725849;
+    background: #ffffff;
+    width: 300%;
+    display: none;
+}
+.hangcu-plus ul{width: 100%;}
+.hangcu-plus a{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.hangcu-plus li{
+	width: 100%;text-align: left;padding-top: 0
+}
+.hangcu-plus a:hover{
+	background: #e11b1e;
+	color: white;
+}
+
+.tragop .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.dichvu .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+.congnghe .title{height: 50px;width: 63px;padding-top: 7px;margin-top: -7px;}
+.doanhnghiep .title{height: 50px;width: 80px;padding-top: 7px;margin-top: -7px;}
+.khuyenmai .title{height: 50px;width: 68px;padding-top: 7px;margin-top: -7px;}
+
+
+.city{
+	top: 44px;
+    left: 145px;
+    width: 29%;
+    height: 90px;
+    background: #eeeeee;
+    border-radius: 4px 4px 4px 4px;	
+	display: none;
+}
+.city a{color: #393d3f;}
+.city ul{margin-left: 15px;}
+.city ul li{
+	padding-top: 13px;font-weight: bold;font-size: 13px;
+}
+.mainlogo{
+    width: 100%;
+    padding-top: .9rem;
+}

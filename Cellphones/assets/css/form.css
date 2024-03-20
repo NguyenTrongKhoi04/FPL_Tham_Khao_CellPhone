@@ -1,0 +1,32 @@
+
+.formadduser{
+ 		width: 80%;
+ 		margin: auto;
+ 		margin-top: 5%;
+ 		padding:3%;
+ 		border: 1px solid #c19b9b;
+    	border-radius: 12px;
+   	 	background: #a2b6d4;
+    	box-shadow: 0 0 23px #577da0;
+ 	}
+ .list{
+ 	line-height: 50px;
+ 	background: #418bca;
+ 	color: white;
+ 	font-weight: 500;
+ 	font-size: 18px;
+ 	padding-left: 50px;
+    border-radius: 9px 9px 0 0;
+ }
+ .main-content
+ {
+ 	width: 96%;
+    margin: 2%;
+    background: white;
+    border-radius: 9px;
+    border: 1px solid #418bca;
+    padding-bottom: 6%;
+ }
+ form{
+
+ }

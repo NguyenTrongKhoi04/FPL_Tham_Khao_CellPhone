@@ -1,0 +1,114 @@
+
+/*.muc .phone{
+	background: #444954 !important;
+}
+.muc .dashbroad{
+	background: #515763 !important;
+}*/
+.infor-main .main-title{
+	line-height: 50px;
+	margin-right: 0;
+	margin-left: 0;
+}
+.main-title .title-1,.main-title .title-2{
+	border: 1px solid #d0d0d0;
+	border-top-width: 0;
+	text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-left-width: 0;
+
+}
+.main-title .title-1{
+	border-bottom-width: 0;
+}
+.main-title .title-1:hover,.main-title .title-2:hover{
+	box-shadow: 0 5px 5px #767f91;
+}
+.main-content,.main-content-second{
+	width: 96%;
+	margin: 2%;
+	background: white;
+	border-radius: 9px;
+    border: 1px solid #418bca;
+}
+.main-title .line{
+	border-bottom: 1px solid #d0d0d0;
+}
+.main .list{
+	line-height: 50px;
+	background: #418bca;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 50px;
+	border-radius: 7px 7px 0 0;
+}
+
+.main-content .search,.main-content-second .search{
+	display: flex;
+	margin: 10px;
+}
+.main-content .search input,.main-content-second .search input{
+	width: 12%;
+	height: 29px;
+	margin-left: 12px;
+}
+.main-content-second{
+	display: none;
+}
+.main-content-second .add{
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.main-content-second .add input{
+	width: 30%;
+}
+.submited{
+	margin-top: 1%;
+    margin-left: 19%;
+}
+.ask{
+	display: none;
+    position: fixed;
+	top: 100px;
+	left: 35%;
+    width: 32%;
+    height: 56%;
+	border-radius: 5px;
+	background: gray;
+}
+.ask .ask-title{
+	line-height: 50px;
+	background: lightblue;
+		border-radius: 5px;
+}
+.ask .ask-title p{
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}
+.pagination .no-drop{
+	cursor: no-drop;
+}
+.pagination a{
+	color: #418bca;
+    display: inline-block;
+    background: #ebebeb;
+    padding: 10px;
+    border: 1px solid #736262;
+    border-radius: 5px;
+    width: 130%;
+    text-align: center;
+    height: 100%;
+}
+.pagination{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 2%;
+	justify-content: flex-end;
+
+}
+.pagination li{
+	margin-right: 27px;
+}

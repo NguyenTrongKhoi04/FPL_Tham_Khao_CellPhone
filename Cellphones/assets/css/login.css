@@ -1,0 +1,123 @@
+body,ul{
+	margin: 0;
+	padding: 0;
+}
+ul{list-style: none;}
+a{color: black;text-decoration: none;}
+
+.all{
+	height: 1000px;
+	width: 100%;
+	background: #dfdfdf;
+}
+.login{
+	margin: auto;
+	width: 350px;
+	height: 580px;
+	background: rgb(207,93,59);
+background: linear-gradient(90deg, rgba(207,93,59,1) 0%, rgba(184,138,91,0.773546918767507) 0%, rgba(235,143,72,0.7455357142857143) 30%, rgba(188,205,166,0.773546918767507) 66%, rgba(179,238,216,0.7959558823529411) 100%);
+	box-shadow: 0 0 29px #846767;
+    border: 1px solid #a7c4c8;
+    margin-top: 130px;
+    border-radius: 12px;
+}
+.title{
+	background: rgb(207,93,59);
+    background: linear-gradient(90deg, rgba(207,93,59,1) 0%, rgba(158,99,81,1) 0%, rgba(182,166,205,1) 66%, rgba(120,161,198,1) 100%);
+	color: white;
+	height: 40px;
+	padding:4px;
+	padding-left: 58px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.infor{
+	    width: 70%;
+    line-height: 77px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(207,93,59);
+    background: linear-gradient(90deg, rgba(207,93,59,1) 0%, rgba(91,160,184,1) 0%, rgba(72,153,235,1) 30%, rgba(182,166,205,1) 66%, rgba(179,210,238,1) 100%);
+    border: 1px solid #ca8f8f;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    color: #fff3f3;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main{
+	    width: 90%;
+    margin: auto;
+}
+.login-btn{
+	width: 100%;
+	margin-top: 12px;
+}
+.forgot{
+	background: #f89a14;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 14px;
+    line-height: 33px;
+    border-radius: 4px;
+}
+.forgot a{
+	color: white;
+	font-weight: bold;
+	padding:6px;
+}
+.forgot a:hover{
+	color: white;
+	text-decoration-color: white;
+}
+.forgot:hover
+{
+	background-color: #ec971f;
+    border-color: #d58512;
+}
+.fb{
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 10px;
+    height: 41px;
+    overflow: hidden;
+    padding-top: 3px;
+    padding-left: 5px;
+    background: #418bca;
+}
+.gg{
+	    margin-left: 19px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 10px;
+    height: 41px;
+    overflow: hidden;
+    padding-top: 3px;
+    padding-left: 5px;
+    background: #ef6f6c;
+}
+.login-btn a{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	/*chu ý*/
+	padding: 9px;
+    padding-left: 120px;
+    padding-right: 136px;
+}
+.login-btn a:hover{
+	color: white;
+	text-decoration:none;
+}
+@media screen and (max-width: 600px){
+    .login{
+        width: 96%;
+        height: 76%;
+        margin-top: 7%;
+    }
+}

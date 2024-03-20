@@ -1,0 +1,235 @@
+body,ul{
+	margin: 0;
+	padding:0;
+}
+ul{list-style: none;}
+a{text-decoration: none;color: white;}
+a:hover{text-decoration: none;}
+
+
+.title{
+	height: 50px;
+	background: #515763;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.your-website{
+	position: absolute;
+    left: 11%;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    line-height: 50px;
+    background: #444954;
+}
+.your-website a{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 14px;
+}
+.your-website:hover a{
+	color: lightblue;
+}
+.login{
+	position: relative;
+	margin-left: 77%;
+	height: 50px;
+	width: 15%;
+	display: flex;
+	padding-left: 20px;
+
+}
+.login .small-icon{
+	height: 100%;
+	padding: 7px;
+	
+
+}
+.login .small-icon img{
+	border-radius: 35px;
+	width: 35px;
+	height: 35px;
+}
+.follow-order a:hover{
+	color: white;
+}
+.follow-phukien a:hover{
+	color: white;
+}
+.follow-phone a:hover,.follow-laptop a:hover{
+	color: white;
+}
+.follow-users a:hover,.follow-headphone a:hover{
+	color: white;
+}
+.follow-nsx a:hover,.follow-dongho a:hover,.follow-hangcu a:hover{
+	color: white;
+}
+.login .name{
+	padding: 14px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding-left: 2px;
+}
+.login:hover{
+	background:  #444954;
+}
+.login:hover .name{
+	color: lightblue;
+}
+.main-page{display: flex;}
+.content{
+	margin-top: 50px;
+	background: #515763;
+	padding:0;
+	width: 22%;
+	min-height: 2000px;
+}
+.fixed-a{
+	width: 100%;
+	border-bottom: 2px solid #9b9b9b;
+	line-height: 50px;
+	padding-left: 40px;
+	display: block;
+	position: relative;
+
+}
+.content i{
+	padding-right: 5px;
+}
+.more{
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+.mail{
+	width: 7%;
+    font-weight: bold;
+	position: absolute;right: 23%;
+	text-align: center;line-height: 50px;
+}
+.mail:hover{
+	background: #444954;
+}
+.mail:hover a{
+	color: #7eafe4;
+}
+.fixed-a:hover{
+	color: white;
+}
+.first-muc{
+	width: 100%;
+}
+
+.first-muc:hover{
+	background: #444954;
+}
+.first-muc:hover i{
+	color: lightblue;
+}
+.second-muc li .second-muc-items{
+	text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding-left: 50px;
+    display: inline-block;
+    width: 100%;
+}
+
+.follow-revenue,.follow-phone,.follow-users,.follow-nsx,.follow-laptop,.follow-headphone,.follow-dongho,.follow-hangcu,.follow-phukien{
+	display: none;
+}
+.follow-order{
+	display: none;
+}
+.main{
+	background: #ebebeb;
+	padding:0;
+	margin-top: 50px;
+	width: 78%;
+}
+.login-sussec{
+	line-height: 50px;
+	width: 100%;
+	color: white;
+	font-weight: 500;
+	font-size: 16px;
+	display: block;
+	padding-left: 50px;
+	background: rgb(207,93,59);
+background: linear-gradient(90deg, rgba(207,93,59,1) 0%, rgba(184,138,91,1) 0%, rgba(72,235,93,1) 30%, rgba(188,205,166,1) 66%, rgba(179,238,216,1) 100%);
+}
+.main .title-main{
+	line-height: 50px;
+	width: 100%;
+	background: #f1f1f1;
+	border-bottom: 1px solid #d0d0d0;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	    font-family: serif;
+    padding-left: 20px;
+}
+p{
+	margin: 0;
+	padding:0;
+}
+.car-items{
+	width: 20%;
+	height: 125px;
+	border-radius: 4px;
+	color: white;
+	position: relative;
+	margin-right: 50px;
+}
+.car-body ul{
+	margin-top: 20px;
+	margin-left: 20px;
+	display: flex;
+}
+.car-items .left{
+	position: absolute;
+	left: 15px;
+	top: 10px;
+}
+.car-items .right{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+.car-items .right p{
+	font-size: 14px;
+    font-weight: bold;
+}
+.car-items .right i{
+	    font-size: 45px;
+    margin-top: 4px;
+}
+.chart{
+	width: 950px;
+	height: 500px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.smail-login{
+	position: absolute;
+    left: 0;
+    top: 99%;
+    width: 50%;
+    height: 95%;
+    background: #989898;
+    text-align: center;
+    border: 1px solid #f5dddd;
+    border-radius: 10px;
+    display: none;
+}
+.smail-login a{
+    display: inline-block;
+    padding: 10px;
+}
+.smail-login a:hover{
+	color: white;
+}

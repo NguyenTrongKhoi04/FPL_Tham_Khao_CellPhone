@@ -1,0 +1,324 @@
+body,p,div{
+	padding: 0;margin: 0;
+	font-family: Arial;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.Menutop .menu a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	padding: 0;margin: 0;list-style: none;
+}
+.Menutop{
+	height: 50px;
+	background: #eeeeee;
+	display: flex;
+	position: relative;
+}
+.search .background{
+	background: #e11b1e;
+	position: absolute;
+	right: 0;
+	height: 100%;
+}
+
+
+.menu li{
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 7px;
+	
+	position: relative;
+}
+.congnghe{
+	width: 8%;
+}
+.doanhnghiep{
+	width: 10%;
+}
+.khuyenmai{
+	width: 9%;
+}
+
+.menu li p{
+	font-weight: bold;
+	padding-top: 2px;
+}
+.menu {margin-left: -15px;}
+.phone .title{height: 50px;width: 60px;padding-top: 7px;margin-top: -7px;}
+
+.Main{
+	width: 1200px;margin-top: 50px;padding:0;
+}
+.Main .chidan{line-height: 45px;padding:0;}
+.Main .chidan ul{display: flex;font-size: 14px;}
+.Main .chidan ul li{color: #e41e21;}
+.Main .chidan ul i{margin:15px; color: #ccc9c5;}
+.Main .slide{padding:0;}
+.slick-dots{
+	bottom: 0 !important;
+}
+.Main .left{margin: 0;padding:0;}
+.Main .right{margin: 0;padding:0;}
+.Main .main{
+	width: 100%;
+	margin: 0;
+}
+.main .manhinh{border: 1px solid #eeeeee;color: #666633;margin-top: 20px;}
+.main .manhinh .title{
+	background: #f7f7f7;
+	line-height: 30px;
+	padding-left: 3px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main .manhinh .content{
+	height: 95px;
+	font-size:  12px;
+	padding-top: 16px;
+	padding-left: 15px;
+}
+a:hover{color: black;}
+.main .bonhotrong{border: 1px solid #eeeeee;margin-top: 20px;color: #666633;}
+.main .bonhotrong .title{
+	background: #f7f7f7;
+	line-height: 30px;
+	padding-left: 3px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main .bonhotrong .content{
+	height: 130px;
+	font-size:  12px;
+	padding-top: 16px;
+	padding-left: 15px;
+}
+.main .Sim{border: 1px solid #eeeeee;margin-top: 20px;color: #666633;}
+.main .Sim .title{
+	background: #f7f7f7;
+	line-height: 30px;
+	padding-left: 3px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main .Sim .content{
+	height: 82px;
+	font-size:  12px;
+	padding-top: 16px;
+	padding-left: 15px;
+}
+.main .hedieuhanh{border: 1px solid #eeeeee;margin-top: 20px;color: #666633;}
+.main .hedieuhanh .title{
+	background: #f7f7f7;
+	line-height: 30px;
+	padding-left: 3px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main .hedieuhanh .content{
+	height: 72px;
+	font-size:  12px;
+	padding-top: 16px;
+	padding-left: 15px;
+}
+.main .right{
+	padding-left: 20px;
+}
+.main .right .title{
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 13px;
+}
+.main .right .title ul{display: flex;}
+.main .right .title li{background: #e72124;margin-right: 8px;text-align: center;}
+.main .right .title li a{
+	padding: 10px;
+    padding-left: 19px;
+    padding-right: 18px;
+	color: #fff;
+}
+.main .right .title li a:hover{text-decoration-color: #fff}
+.main .right .short-info{
+	margin-top: 20px;
+	padding:16px;
+	height: 95px;
+	background: #f5f5f5;
+	font-size: 14px;
+	border-radius: 2px;
+	border-left: 4px solid #e72124;
+}
+.main .right .bonus
+{
+	margin-top: 20px;
+	line-height: 50px;
+	padding: 0;
+}
+.main .right .bonus .gia{display: flex;font-size: 12px;}
+.main .right .bonus .gia ul li{margin-right: 20px;}
+.main .right .bonus .gia ul li a{color: #e72124;}
+.main .right .bonus .gia ul li a:hover{text-decoration-color: #e72124;}
+.main .right .bonus .sort{display: flex;font-size: 12px;}
+.main .right .bonus .sort ul li{margin-right: 20px;}
+.main .right .bonus .sort ul li a{color: #e72124;}
+.main .right .bonus .sort ul li a:hover{text-decoration-color: #e72124;}
+.main .right .danhmuc li{
+	width: 20%;
+	height: 340px;
+	float: left;
+	display: block;
+	position: relative;border: 1px solid #dee1e6;
+}
+.main .right .danhmuc li:hover{
+	box-shadow: 0 0 9px 2px #AAA;
+	border: 0;
+}
+.main .right .danhmuc li img{padding: 7px;}
+.main .right .danhmuc li .sale{
+	position: absolute;
+	top: 5px;right:5px;
+	width: 50px;
+	height: 35px;
+	background: #e11b1e;
+	color: white;
+	font-size: 12px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+.main .right .danhmuc li .tragop
+{
+	position: absolute;
+	left: 5px;top: 140px;
+	width: 80px;height: 23px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 10px;
+	background: #f28902;
+	font-weight: bold;
+	padding-top: 2px;
+	cursor: pointer;
+}
+.main .right .danhmuc li .danhgia{
+	font-size: 12px;padding-left: 5px;
+	padding-top: 10px;
+}
+.main .right .danhmuc li i{color:#f28902; }
+.BacktoTop{
+	height: 35px;
+	width: 35px;
+	border: 2px solid #393d3f;
+	cursor: pointer;
+	text-align: center;
+	position: fixed;
+	bottom: 125px;
+	right: 30px;
+	border-radius: 100px;
+	display: none;
+	z-index: 99;
+}
+.BacktoTop:hover{
+	background: #e9ebec;
+	box-shadow: 0 0 10px black;
+}
+.long-info
+{
+	margin-top: 20px;
+	text-align: justify;
+	position: relative;
+}
+.Footer {
+	width: 100%;
+	margin-top: 35px;
+}
+.Footer .top{
+	height: 240px;
+	background: #eeeeee;
+	display: flex;
+	padding-top:20px;
+	padding-left: 80px;
+	padding-right:80px;
+}
+.Footer p,.Footer ul{margin-bottom: 0;}
+.Footer .address p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.Footer .address ul a{
+	font-size: 12px;
+	color: black;
+}
+.Footer .top .khoi2 li{
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+.Footer .down{
+	background: #f8f8f8;
+}
+
+.sdt .khoi1 p{
+	font-size: 12px;
+}
+.sdt .khoi1 span{
+	font-weight: bold;
+	font-size: 13px;
+
+}
+.sdt .khoi2{
+	margin-top: 20px;
+}
+.sdt .khoi2 p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.baohanh ul li,.thongtinkhac ul li{
+	margin-top: -2px;
+}
+.baohanh ul{
+	margin-top: -2px;
+}
+.baohanh,.thongtinkhac{   margin-top: -3px;}
+.baohanh a,.thongtinkhac a{
+	color: black;
+	font-size: 12px;
+}
+.baohanh a:hover,.thongtinkhac a:hover{color: black;text-decoration: underline;}
+.down{
+	font-size: 10px;
+	text-align: center;
+	padding-top: 40px;
+	color: #a07777;
+}
+.chean{
+	display: block;
+	height: 70px;
+	cursor: pointer;
+	background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0.91) 50%,#fff 55%);
+	position: absolute;
+	top: 534px;
+	text-align: center;
+	width: 100%
+}
+.chean p{
+	font-size: 14px;
+	margin-top: 45px;
+	color: #e11b1e;
+}
+.an{
+	display: none;
+}
